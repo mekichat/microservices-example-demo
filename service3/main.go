@@ -9,7 +9,7 @@ import (
 
 func main()  {
 
-	router := gin.Default() // deafult maluware
+	router := gin.Default() // deafult middleware
 
 	router.GET("/data", func(ctx *gin.Context) {
 

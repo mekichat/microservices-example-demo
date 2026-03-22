@@ -10,7 +10,7 @@ import (
 
 func main()  {
 
-	router := gin.Default() // deafult malleware
+	router := gin.Default() // deafult middleware
 
 	router.GET("/process", func(ctx *gin.Context) {
 
